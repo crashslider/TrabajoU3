@@ -1,0 +1,16 @@
+.login-logo {
+    text-align: center;
+    margin: 40px 0;
+  }
+  
+  .login-logo img {
+    max-width: 250px;
+  }
+  
+  ion-button {
+    --background: #DF1529;  // Cambia el color de fondo del botón
+    --background-activated: #B81222; // Color cuando el botón es presionado
+    --background-focused: #B81222; // Color cuando el botón es enfocado
+    --background-hover: #B81222; // Color cuando el botón es pasado por encima
+  }
+  

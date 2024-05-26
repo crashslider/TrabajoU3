@@ -1,0 +1,63 @@
+ion-content {
+    .circular-button {
+      position: fixed;
+      bottom: 20px;
+      left: calc(50% - 50px); /* Ajusta el valor según el tamaño del botón */
+      width: 100px; /* Ajusta el tamaño del botón */
+      height: 100px; /* Ajusta el tamaño del botón */
+      background-color: transparent !important; /* Establece el fondo como transparente */
+      border: none !important; /* Elimina cualquier borde */
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 0; /* Elimina el espacio interior del botón */
+    }
+  }
+
+  ion-content {
+    --ion-background-color: #f4f4f4; /* Color de fondo */
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Alinea los elementos verticalmente al centro */
+    align-items: center; /* Alinea los elementos horizontalmente al centro */
+  }
+  
+  ion-item {
+    margin-bottom: 15px; /* Espacio entre cada elemento de entrada */
+  }
+  
+  ion-label {
+    color: #333; /* Color del texto de la etiqueta */
+  }
+  
+  ion-input,
+  ion-textarea {
+    border: 1px solid #ccc; /* Borde del campo de entrada */
+    border-radius: 8px; /* Borde redondeado */
+    padding: 10px; /* Espaciado interno */
+  }
+  
+  ion-button {
+    margin-top: 10px; /* Espacio entre los botones */
+  }
+  
+  /* Estilos específicos para los botones de cancelar y enviar */
+  ion-button[color="danger"] {
+    --background: #d9534f; /* Color de fondo rojo */
+  }
+  
+  ion-button[color="primary"] {
+    --background: #5bc0de; /* Color de fondo azul */
+  }
+  
+  ion-button[color="adjuntar"] {
+    --background: #0CA789; /* Color de fondo personalizado */
+  }
+  
+  .button-group {
+    display: flex;
+    justify-content: space-between; /* Espacio entre los botones */
+    width: 100%; /* Ocupa todo el ancho disponible */
+    max-width: 300px; /* Ancho máximo */
+  }
+  

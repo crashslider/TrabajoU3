@@ -1,0 +1,40 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>Tramites</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title size="large">tramites</ion-title>
+    </ion-toolbar>
+  </ion-header>
+
+  <!-- Botones verticales -->
+  <div class="button-container">
+    <a routerLink="/pagina1" class="button-link">
+      <span class="line small">Oficina de Partes</span>
+      <span class="line large">Ingresar Solicitud</span>
+      <span class="line small">Ingreso de cualquier tipo de solicitud</span>
+    </a>
+    <a routerLink="/pagina1" class="button-link">
+      <span class="line small">Obras Municipales</span>
+      <span class="line large">Ingresar Solicitud Permiso</span>
+      <span class="line small">Ingreso solicitudes de permiso</span>
+    </a>
+    <a routerLink="/pagina1" class="button-link">
+      <span class="line small">Alcaldia</span>
+      <span class="line large">Ingresar Solicitud Audiencia</span>
+      <span class="line small">Solicitud audiencia con Alcaldesa</span>
+    </a>
+
+  </div>
+
+
+
+    <!-- Botón circular -->
+    <ion-button expand="block" color="light" class="circular-button" (click)="goToHome()">
+      <ion-img src="assets/img/home.png"></ion-img>
+    </ion-button>
+</ion-content>

@@ -1,0 +1,25 @@
+ion-button {
+  margin: 10px 0;
+}
+
+ion-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 120px; /* Ajusta el tamaño según tus necesidades */
+  padding: 10px;
+  .button-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  ion-img {
+    width: 70px; /* Ajusta el tamaño de la imagen según tus necesidades */
+    height: 70px;
+    margin-bottom: 5px; /* Espacio entre la imagen y el texto */
+  }
+  ion-label {
+    font-size: 14px; /* Ajusta el tamaño del texto según tus necesidades */
+    color: black;
+  }
+}

@@ -1,0 +1,46 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>Contacto</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title size="large">contacto</ion-title>
+    </ion-toolbar>
+  </ion-header>
+
+  <div class="button-container">
+    <a routerLink="/pagina1" class="button-link">
+      <img src="assets/img/chat.png" alt="Imagen 1">
+      <div class="text-container">
+        <span class="line small">Iniciar</span>
+        <span class="line large">Chat</span>
+      </div>
+    </a>
+    <a routerLink="/pagina1" class="button-link">
+      <img src="assets/img/phone.png" alt="Imagen 2">
+      <div class="text-container">
+        <span class="line small">Contactos</span>
+        <span class="line large">Telefonicos</span>
+      </div>
+    </a>
+    <a routerLink="/pagina1" class="button-link">
+      <img src="assets/img/mensaje.png" alt="Imagen 3">
+      <div class="text-container">
+        <span class="line small">Escribenos</span>
+        <span class="line large">Mensaje</span>
+      </div>
+    </a>
+  </div>
+  
+  
+  
+
+  <!-- Botón circular -->
+  <ion-button expand="block" color="light" class="circular-button" (click)="goToHome()">
+    <ion-img src="assets/img/home.png"></ion-img>
+  </ion-button>
+
+</ion-content>

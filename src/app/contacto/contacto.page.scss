@@ -1,0 +1,55 @@
+ion-content {
+    .circular-button {
+      position: fixed;
+      bottom: 20px;
+      left: calc(50% - 50px); /* Ajusta el valor según el tamaño del botón */
+      width: 100px; /* Ajusta el tamaño del botón */
+      height: 100px; /* Ajusta el tamaño del botón */
+      background-color: transparent !important; /* Establece el fondo como transparente */
+      border: none !important; /* Elimina cualquier borde */
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 0; /* Elimina el espacio interior del botón */
+    }
+  }
+
+  .button-container {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .button-link {
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    margin: 5px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    text-decoration: none;
+    color: #000;
+  }
+  
+  .button-link img {
+    width: 40px; /* Ajusta el ancho de la imagen según sea necesario */
+    height: auto; /* Ajusta la altura automáticamente para mantener la proporción */
+    margin-right: 10px; /* Espacio entre la imagen y el texto */
+  }
+  
+  .text-container {
+    display: flex;
+    flex-direction: column; /* Ajusta el texto uno sobre el otro */
+  }
+  
+  .line {
+    display: block;
+  }
+  
+  .small {
+    font-size: 12px;
+  }
+  
+  .large {
+    font-size: 18px;
+  }
+  

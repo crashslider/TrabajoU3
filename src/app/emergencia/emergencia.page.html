@@ -1,0 +1,40 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>emergencia</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title size="large">emergencia</ion-title>
+    </ion-toolbar>
+  </ion-header>
+
+ <!-- Inputs y botones para emergencia -->
+  <ion-item>
+  <ion-label position="stacked">Título:</ion-label>
+  <ion-input type="text" placeholder="Ingrese el título"></ion-input>
+  </ion-item>
+
+  <ion-item>
+    <ion-label position="stacked">Descripción:</ion-label>
+    <ion-textarea rows="5" placeholder="Ingrese la descripción"></ion-textarea>
+  </ion-item>
+
+  <ion-button expand="full">Adjuntar</ion-button>
+  <ion-button expand="full">Ubicación</ion-button>
+
+  <div style="display: flex; justify-content: space-between; margin-top: 10px;">
+    <ion-button color="primary" expand="full">Enviar</ion-button>
+    <ion-button color="danger" expand="full">Cancelar</ion-button>
+  </div>
+
+
+
+  <!-- Botón circular -->
+  <ion-button expand="block" color="light" class="circular-button" (click)="goToHome()">
+    <ion-img src="assets/img/home.png"></ion-img>
+  </ion-button>
+
+</ion-content>
